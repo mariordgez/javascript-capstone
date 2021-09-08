@@ -1,5 +1,6 @@
 import './style.css';
-import { modalComments, mainButtons } from './components/mainButtons';
+import mainButtons from './components/mainButtons';
+import modalComments from './components/modalComments';
 
 const initializer = () => {
   console.log('Botones: ', mainButtons);
