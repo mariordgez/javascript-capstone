@@ -49,6 +49,9 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "micromodal": "^0.4.6"
+    "bootstrap": "^5.1.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^12.1.0"
   }
 }
