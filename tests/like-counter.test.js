@@ -8,8 +8,7 @@ describe('Gets correct count of likes based on the item', () => {
     document.body.innerHTML = '<div><ul class="container"></li></div>';
     const likesContainer = document.querySelector('.container');
     const likeBtn = document.createElement('div');
-    likeBtn.innerHTML =
-      '<button id="1" class= "like-btn"><i class="fas fa-heart"></i></button>';
+    likeBtn.innerHTML = '<button id="1" class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = '1';
     const item1 = { item_id: '1', likes: 50, id: 1 };
     const item2 = { item_id: '2', likes: 500, id: 2 };
@@ -23,8 +22,7 @@ describe('Gets correct count of likes based on the item', () => {
     document.body.innerHTML = '<div><ul class="container"></li></div>';
     const likesContainer = document.querySelector('.container');
     const likeBtn = document.createElement('div');
-    likeBtn.innerHTML =
-      '<button id="1" class= "like-btn"><i class="fas fa-heart"></i></button>';
+    likeBtn.innerHTML = '<button id="1" class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = '2';
     const item1 = { item_id: '1', likes: 50, id: 1 };
     const item2 = { item_id: '2', likes: 500, id: 2 };
@@ -38,8 +36,7 @@ describe('Gets correct count of likes based on the item', () => {
     document.body.innerHTML = '<div><ul class="container"></li></div>';
     const likesContainer = document.querySelector('.container');
     const likeBtn = document.createElement('div');
-    likeBtn.innerHTML =
-      '<button id="1" class= "like-btn"><i class="fas fa-heart"></i></button>';
+    likeBtn.innerHTML = '<button id="1" class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = '3';
     const item1 = { item_id: '1', likes: 500, id: 1 };
     const item2 = { item_id: '2', likes: 500, id: 2 };

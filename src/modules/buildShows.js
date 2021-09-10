@@ -16,8 +16,7 @@ const buildShows = async (showsList, container) => {
     showContainer.appendChild(img);
 
     const likeBtn = document.createElement('div');
-    likeBtn.innerHTML =
-      '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
+    likeBtn.innerHTML = '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = `like_${showsList[i].id}`;
     const likeCounter = document.createElement('div');
     likeCounter.classList.add('like-cnt');
