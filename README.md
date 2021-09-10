@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Leaderboard</h3>
+  <h3 align="center">List of Items</h3>
 
   <p align="center">
     A Leaderboard project with Webpack and JavaScript
