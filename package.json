@@ -2,7 +2,7 @@
   "name": "javascript-capstone",
   "version": "1.0.0",
   "description": "Leaderboard API (Async, Await)",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
     "deploy": "npm run build && gh-pages -d dist",

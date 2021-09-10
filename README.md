@@ -4,16 +4,16 @@
   <h3 align="center">JavaScript Capstone Project</h3>
 
   <p align="center">
-    A Leaderboard project with Webpack and JavaScript
+    The JavaScript capstone project is about building our own web application based on an external API. You will select an API that provides data about a topic that you like and then build the webapp around it. The webapp will have 2 pages and it's based on the TVmaze API.
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">Live Demo</a>
+    <a href="https://mariordgez.github.io/javascript-capstone/">Live Demo</a>
     ·
-    <a href="https://github.com/carlos-ssh/leaderboard/issues">Report Bug</a>
+    <a href="https://github.com/mariordgez/javascript-capstone/issues">Report Bug</a>
     ·
-    <a href="https://github.com/carlos-ssh/leaderboard/issues">Request Feature</a>
+    <a href="https://github.com/mariordgez/javascript-capstone/issues">Request Feature</a>
   </p>
 </p>
 
@@ -63,9 +63,9 @@ A Leaderboard project with webpack and JavaScript
 
 👤 **Mario Rodriguez**
 
-- GitHub: [@Carlitros Flores](https://github.com/carlos-ssh)
-- Twitter: [@Carlitros Flores](https://twitter.com/aom.robles)
-- LinkedIn: [Carlitros Flores](https://www.linkedin.com/in/carlos-ssh/)
+- GitHub: [@mariordgez](https://github.com/mariordgez)
+- Twitter: [@MarioRo75396624](https://twitter.com/MarioRo75396624)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mario-alberto-rodriguez-cota-a2860a205)
 
 ## Getting Started
 
@@ -80,7 +80,7 @@ A Leaderboard project with webpack and JavaScript
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:carlos-ssh/Leaderboard.git
+   git clone git@github.com:mariordgez/javascript-capstone.git
    ```
 2. Install NPM packages
    ```sh
@@ -97,7 +97,7 @@ A Leaderboard project with webpack and JavaScript
 
 ## Roadmap
 
-See the [open issues](https://github.com/carlos-ssh/Leaderboard/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mariordgez/javascript-capstone/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
