@@ -16,7 +16,8 @@ const buildShows = async (showsList, container) => {
     showContainer.appendChild(img);
 
     const likeBtn = document.createElement('div');
-    likeBtn.innerHTML = '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
+    likeBtn.innerHTML =
+      '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = `like_${showsList[i].id}`;
     const likeCounter = document.createElement('div');
     likeCounter.classList.add('like-cnt');
@@ -31,7 +32,8 @@ const buildShows = async (showsList, container) => {
     likeBtn.addEventListener('click', async (e) => {
       e.preventDefault();
       await postLikes(likeBtn.id);
-      window.location.reload();
+      const updateLikes = await getLikes();
+      getLikesCount(likeBtn, updateLikes, likeCounter);
     });
   }
 };
