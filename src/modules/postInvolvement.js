@@ -7,7 +7,7 @@ const postLikes = async (item) => {
       headers: {
         'Content-type': 'application/json; Charset=UTF-8',
       },
-    }
+    },
   );
   const data = response.text;
   return data;
@@ -26,7 +26,7 @@ const postComments = async (button, userName, comment) => {
       headers: {
         'Content-type': 'application/json; Charset=UTF-8',
       },
-    }
+    },
   );
 
   return response.text();

@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   min-height: 100vh;
   background-color: #adadad;
@@ -22,7 +23,7 @@ body {
 
 .nav-item {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 10px;

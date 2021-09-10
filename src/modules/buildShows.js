@@ -1,7 +1,7 @@
 /* eslint-disable no-await-in-loop */
-import { getLikes } from './getInvolvement.js';
-import { postLikes } from './postInvolvement.js';
-import { getLikesCount } from './counters.js';
+import { getLikes } from './getInvolvement';
+import { postLikes } from './postInvolvement';
+import { getLikesCount } from './counters';
 
 const buildShows = async (showsList, container) => {
   const likes = await getLikes();
@@ -16,10 +16,10 @@ const buildShows = async (showsList, container) => {
     showContainer.appendChild(img);
 
     const likeBtn = document.createElement('div');
-    likeBtn.innerHTML =
-      '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
+    likeBtn.innerHTML = '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = `like_${showsList[i].id}`;
     const likeCounter = document.createElement('div');
+    likeCounter.classList.add('like-cnt');
     getLikesCount(likeBtn, likes, likeCounter);
     showContainer.appendChild(likeCounter);
     showContainer.appendChild(likeBtn);

@@ -85,6 +85,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 footer {
   background-color: #095e61;
   margin-top: 50px;
@@ -217,7 +218,7 @@ footer {
 
 .bx:hover {
   color: rgb(255, 255, 255);
-  border: 1px solid #000000;
+  border: 1px solid #000;
 }
 
 @media (min-width: 728px) {
@@ -275,6 +276,7 @@ footer {
     width: 95%;
   }
 }
+
 .shows {
   display: flex;
   flex-direction: column;
@@ -295,6 +297,10 @@ footer {
 
 .like-btn:hover {
   color: red;
+}
+
+.like-cnt {
+  margin-top: 8px;
 }
 
 .fas-heart {
