@@ -16,8 +16,6 @@ describe('Gets correct count of items based on a transformed array', () => {
 });
 
 describe('Gets correct count of likes based on the item', () => {
-  beforeEach(() => {});
-
   test('likeCount equals to 50', () => {
     document.body.innerHTML =
       '<div>' + '  <ul class="container"></li>' + '</div>';
