@@ -297,6 +297,10 @@ footer {
   color: red;
 }
 
+.like-cnt {
+  margin-top: 8px;
+}
+
 .fas-heart {
   pointer-events: none;
 }

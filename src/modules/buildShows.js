@@ -20,6 +20,7 @@ const buildShows = async (showsList, container) => {
       '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
     likeBtn.id = `like_${showsList[i].id}`;
     const likeCounter = document.createElement('div');
+    likeCounter.classList.add('like-cnt');
     getLikesCount(likeBtn, likes, likeCounter);
     showContainer.appendChild(likeCounter);
     showContainer.appendChild(likeBtn);
