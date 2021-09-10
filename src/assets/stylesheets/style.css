@@ -228,6 +228,7 @@ footer {
   }
 
   .shows-list {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -238,6 +239,7 @@ footer {
 
 @media (min-width: 1100px) {
   .shows-list {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
