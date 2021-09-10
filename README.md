@@ -44,7 +44,7 @@
 
 ## About The Project
 
-A Leaderboard project with webpack and JavaScript
+A Movie List project using Javascript, Webpack and TVmaze API.
 
 ### Built With
 
