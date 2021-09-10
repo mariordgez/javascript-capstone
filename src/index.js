@@ -1,8 +1,8 @@
 import './assets/stylesheets/style.css';
-import buildShows from './modules/buildShows.js';
-import { showsCount } from './modules/counters.js';
-import getShows from './modules/getShows.js';
-import modalStructure from './modules/modal.js';
+import buildShows from './modules/buildShows';
+import { showsCount } from './modules/counters';
+import getShows from './modules/getShows';
+import modalStructure from './modules/modal';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';

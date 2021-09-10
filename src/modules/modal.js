@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-expressions */
 
-import { getCommentCount } from './counters.js';
-import { getComments } from './getInvolvement.js';
-import { postComments } from './postInvolvement.js';
-import renderComments from './renderComments.js';
+import { getCommentCount } from './counters';
+import { getComments } from './getInvolvement';
+import { postComments } from './postInvolvement';
+import renderComments from './renderComments';
 
 const modalStructure = async (buttons, showsList) => {
   for (let i = 0; i < buttons.length; i += 1) {
@@ -100,7 +100,7 @@ const modalStructure = async (buttons, showsList) => {
         commentSection,
         commentDiv,
         addComment,
-        commentForm
+        commentForm,
       );
       detailWrap.append(detail1, detail2, detail3, detail4);
       imgWrapper.appendChild(img);
