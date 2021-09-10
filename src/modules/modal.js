@@ -92,9 +92,15 @@ const modalStructure = async (buttons, showsList) => {
       modalSection.appendChild(modalWrapper);
       modalWrapper.appendChild(modalDiv);
       modalDiv.append(
-        close, imgWrapper, itemNumber,
-        detailWrap, detail5, commentSection,
-        commentDiv, addComment, commentForm,
+        close,
+        imgWrapper,
+        itemNumber,
+        detailWrap,
+        detail5,
+        commentSection,
+        commentDiv,
+        addComment,
+        commentForm
       );
       detailWrap.append(detail1, detail2, detail3, detail4);
       imgWrapper.appendChild(img);
