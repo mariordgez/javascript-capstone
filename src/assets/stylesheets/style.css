@@ -81,7 +81,10 @@ img {
 
 footer {
   background-color: #095e61;
-  margin-top: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
   padding-left: 50px;
   color: #f1f1f1;
 }
@@ -208,7 +211,6 @@ footer {
 .bx:hover {
   color: rgb(255, 255, 255);
   border: 1px solid #000000;
-
 }
 
 @media (min-width: 728px) {

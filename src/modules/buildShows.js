@@ -4,6 +4,7 @@ const buildShows = async (showsList, container) => {
   for (let i = 0; i <= showsList.length - 1; i += 1) {
     const showContainer = document.createElement('div');
     showContainer.id = `movie_${showsList[i].id}`;
+    showContainer.classList.add('shows');
 
     const img = document.createElement('img');
     img.src = showsList[i].image.medium;
@@ -14,7 +15,6 @@ const buildShows = async (showsList, container) => {
     commentBtn.innerHTML = '<button class="comment-popup">Comment</button>';
     showContainer.appendChild(commentBtn);
     container.appendChild(showContainer);
-
   }
 };
 
