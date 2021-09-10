@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">List of Items</h3>
+  <h3 align="center">JavaScript Capstone Project</h3>
 
   <p align="center">
     A Leaderboard project with Webpack and JavaScript
@@ -117,4 +117,3 @@ License Free.
 
 - [GitHub Pages](https://pages.github.com)
 - [WebPack](https://webpack.js.org/)
-- likes
