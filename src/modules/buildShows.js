@@ -10,7 +10,10 @@ const buildShows = async (showsList, container) => {
     img.src = showsList[i].image.medium;
     img.style.width = 'auto';
     showContainer.appendChild(img);
-
+    const likeBtn = document.createElement('div');
+    likeBtn.innerHTML =
+      '<button class= "like-btn"><i class="fas fa-heart"></i></button>';
+    showContainer.appendChild(likeBtn);
     const commentBtn = document.createElement('div');
     commentBtn.innerHTML = '<button class="comment-popup">Comment</button>';
     showContainer.appendChild(commentBtn);
