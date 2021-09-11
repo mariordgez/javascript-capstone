@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  height: 100%;
+  position: relative;
+}
+
+img {
+  width: 300px;
+}
+
+.header {
+  background-color: #2f2f2f;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  align-self: flex-start;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.links {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.like-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.comment-popup {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #616262;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1f1f1;
+}
+
+.shows-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #095e61;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #f1f1f1;
+}
+
+.underlined {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.items-title {
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: none;
+  background-color: rgb(0, 0, 0, 1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.modal-wrapper {
+  background-color: #f1f1f1;
+  height: 80%;
+  width: 80%;
+  margin: 5rem auto 0;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.img-wrapper {
+  padding: 1rem;
+  text-align: center;
+}
+
+.number {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.close {
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding-right: 1rem;
+}
+
+.close:hover {
+  color: rgb(65, 65, 65);
+}
+
+.detail-wrap {
+  width: 100%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.list-item {
+  margin-bottom: 3rem;
+}
+
+.comment-para {
+  margin-bottom: 1rem;
+}
+
+.summary {
+  text-align: left;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+}
+
+.user-name {
+  height: 40px;
+  width: 150px;
+  padding: 0 1rem;
+}
+
+.user-msg {
+  height: 80px;
+  width: 200px;
+  padding: 1rem;
+}
+
+.comment-btn {
+  margin-bottom: 2rem;
+  width: 150px;
+  height: 40px;
+  background-color: #121313;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1f1f1;
+}
+
+.comment-btn:hover,
+.comment-popup:hover {
+  background-color: rgb(90, 90, 90);
+  cursor: pointer;
+}
+
+.bx:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid #000;
+}
+
+@media (min-width: 728px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .shows-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .detail-wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1100px) {
+  .shows-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .navbar {
+    width: 87%;
+  }
+
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .user-name {
+    width: 200px;
+  }
+
+  .user-msg {
+    width: 300px;
+  }
+
+  .comment-btn {
+    width: 200px;
+  }
+
+  footer div {
+    width: 95%;
+  }
+}
+
+.shows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-btn {
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  color: red;
+}
+
+.like-cnt {
+  margin-top: 8px;
+}
+
+.fas-heart {
+  pointer-events: none;
+}

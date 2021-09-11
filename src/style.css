@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #adadad;
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgb(219, 219, 219);
+  margin: 0;
+  padding: 0;
+}
+
+.nav-ul {
+  list-style: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+.app-name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto 10px 0 10px;
+}
+
+.nav-links {
+  padding-top: 30px;
+}
+
+.underlined {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.items-title {
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: none;
+  background-color: rgb(0, 0, 0, 1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.modal-wrapper {
+  background-color: #f1f1f1;
+  height: 80%;
+  width: 80%;
+  margin: 5rem auto 0;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.img-wrapper {
+  padding: 1rem;
+  text-align: center;
+}
+
+.number {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.close {
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding-right: 1rem;
+}
+
+.close:hover {
+  color: cadetblue;
+}
+
+.detail-wrap {
+  width: 100%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.list-item {
+  margin-bottom: 3rem;
+}
+
+.comment-para {
+  margin-bottom: 1rem;
+}
+
+.summary {
+  text-align: left;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+}
+
+.user-name {
+  height: 40px;
+  width: 150px;
+  padding: 0 1rem;
+}
+
+.user-msg {
+  height: 80px;
+  width: 200px;
+  padding: 1rem;
+}
+
+.comment-btn {
+  margin-bottom: 2rem;
+  width: 150px;
+  height: 40px;
+  background-color: #095e61;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: cursive;
+  color: #f1f1f1;
+}
+
+.comment-btn:hover,
+.comment-popup:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.bx:hover {
+  color: cadetblue;
+}
